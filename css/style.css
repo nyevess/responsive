@@ -9,9 +9,46 @@
          url("") format("woof");
 }
 
-/* ******************************** */
 
-/* Colores */
+html{
+    font-family: sans-serif;
+    color: white;
 
-/* ******************************** */
+ 
+}
 
+header{
+    background: url(../img/fondo.jpg) center/cover;
+    height: 80vmin;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+   
+}
+
+h1{
+  
+    flex-grow: 2;
+    font-size: 10vmax;
+}
+
+nav{
+ 
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ 
+}
+
+
+nav a{
+    color: green;
+    text-decoration: none;
+ 
+font-size:5vmin;
+    
+}
